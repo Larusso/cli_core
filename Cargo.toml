@@ -1,0 +1,21 @@
+[package]
+name = "cli_core"
+version = "0.1.0"
+authors = ["Manfred Endres <manfred.endres@tslarusso.de>"]
+description = "The core functionality for the unity version manager commandline client."
+repository = "https://github.com/Larusso/cli_core"
+readme = "README.md"
+keywords = ["cli","commandline", "docopt", "wrapper", "console"]
+categories = ["development-tools", "command-line-interface", "command-line-utilities"]
+license = "Apache-2.0"
+[badges]
+travis-ci = { repository = "Larusso/cli_core", branch = "master" }
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+console = "0.6.1"
+docopt = "1.0"
+flexi_logger = "0.9.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0.32"
